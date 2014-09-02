@@ -1,0 +1,30 @@
+# Compiled object files
+*.[oa]
+*.so
+
+# Folders
+_obj
+_test
+
+# Compilation artifacts don't belong in here
+*.exe
+*.test
+*.prof
+
+# Arch-specific extensions
+*.[568vq]
+[568vq].out
+
+# CGO Trash
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# Generic trash
+*.sw[po]
+*.py[co]
+.DS_Store
+Thumbs.db
+
